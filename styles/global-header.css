@@ -5,14 +5,14 @@ body {
     background-color: #191919;
 }
 body.background_image {
-    background-image: url("./images/background-main.jpg");
+    background-image: url("../images/background-main.jpg");
     background-repeat: no-repeat;
     background-size: 100%;
 }
 
 
 div.header_container {
-    border-bottom: #191919 4px solid;
+    border-bottom: #fff 1px solid;
     padding: 0;
     margin: 0;
     display: flex;
@@ -47,7 +47,7 @@ ul.header_navigation_bar {
     display: inline-flex;
 }
 a#navigation_bar_button { 
-    border: #fff 1px solid;
+    border: rgb(47, 0, 131) 1px solid;
     border-radius: 0.5vw;
     
     font-family: Arial, Helvetica, sans-serif;
@@ -68,14 +68,16 @@ a#navigation_bar_button {
     
 }
 a#navigation_bar_button:hover {
-    box-shadow: rgba(255,255,255,127) 0 0.15vw 4px;
+    box-shadow: rgba(255,255,255,127) 0 0 7px;
+    border: rgb(30, 0, 100) 1px solid;
 
     color: #fff;
 
     background-color: rgb(30, 0, 100);
 }
 a#navigation_bar_button:active {
-    box-shadow: rgba(255,255,255,127) 0 0.18vw 10px;
+    box-shadow: rgba(255,255,255,127) 0 0 12px;
+    border: rgb(47, 0, 90) 1px solid;
 
     color: #fff;
 
