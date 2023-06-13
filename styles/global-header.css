@@ -42,7 +42,7 @@ ul.header_navigation_bar {
     list-style: none;
 
     padding: 0;
-    margin: 0.1vw 1vw 1.05vw 42vw;
+    margin: 0vw 1vw 1vw 45vw;
 
     display: inline-flex;
 }
@@ -58,7 +58,7 @@ a#navigation_bar_button {
     text-align: center;
 
     padding: 0.2vw 0.25vw;
-    margin: 0 0.2vw;
+    margin: 0.15vw 0.2vw;
 
     width: 3.5vw;
 
@@ -97,10 +97,11 @@ h1.header_title_text {
     margin: 0.6vw;
 }
 h3#web_version {
-    padding: 0;
-    margin: 0.25vw 0.25vw 0 0;
+    padding: 0.1vw 1vw 0 0;
+    margin: 0;
     text-align: right;
     font-family: Arial, Helvetica, sans-serif;
+    float: right;
 
     font-size: 0.6vw;
 }

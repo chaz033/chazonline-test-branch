@@ -1,0 +1,17 @@
+div.footer_container {
+    padding: 0 0 0 1vw;
+    margin: 0.5vw 0 0;
+
+    position: static;
+    bottom: 0;
+
+    width: auto;
+}
+
+h1.footer_text {
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+
+    padding: 0;
+    margin: 0;
+}
